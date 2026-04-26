@@ -3,24 +3,24 @@ import Coordinate from '../ui/Coordinate';
 
 export default function Navbar() {
   return (
-    <nav className="flex flex-col gap-3 px-4">
+    <nav className="flex flex-col gap-3 px-4 mb-5">
       <div className="flex justify-between">
         <Coordinate />
         <Clock />
       </div>
       <div className="flex justify-between">
         <div className="flex gap-2">
-          <span className="border border-black px-4 py-1 rounded-[50%_/_50%] hover:bg-black hover:text-white transform transition-all duration-500">
+          <span className="border border-black px-7 py-1 rounded-[50%_/_50%] hover:bg-black hover:text-white transform transition-all duration-500">
             <a className="text-sm" href="/">
               Home
             </a>
           </span>
-          <span className="border border-black px-4 py-1 rounded-[50%_/_50%] hover:bg-black hover:text-white transform transition-all duration-500">
+          <span className="border border-black px-7 py-1 rounded-[50%_/_50%] hover:bg-black hover:text-white transform transition-all duration-500">
             <a className="text-sm" href="/projects">
               Work
             </a>
           </span>
-          <span className="border border-black px-4 py-1 rounded-[50%_/_50%] hover:bg-black hover:text-white transform transition-all duration-500">
+          <span className="border border-black px-7 py-1 rounded-[50%_/_50%] hover:bg-black hover:text-white transform transition-all duration-500">
             <a className="text-sm" href="/archive">
               Archive
             </a>
